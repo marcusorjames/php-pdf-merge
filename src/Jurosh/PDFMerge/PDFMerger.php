@@ -17,8 +17,7 @@ class PDFMerger {
     private $_files;
     private $_importExternalLinks;
 
-    public function __construct($importExternalLinks = false)
-    {
+    public function __construct($importExternalLinks = false) {
         $this->_importExternalLinks = $importExternalLinks;
     }
 
